@@ -182,7 +182,7 @@ section{
     font-size: 2.5rem;
     font-weight: bold;
     color: transparent;
-    background-image: linear-gradient(var(--main-color), aqua);
+    background-image: linear-gradient(rgb(35, 12, 241),var(--main-color));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0 0;
