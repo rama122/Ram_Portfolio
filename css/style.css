@@ -308,6 +308,7 @@ section{
 .home-imgHover:hover {
     background: var(--bg-color);
     opacity: .8;
+    height: 100vh;
 }
 
 /*----------------- about-section ---------------*/
