@@ -8,7 +8,7 @@
         overflow: hidden;
     }
     .home{
-        padding: 10rem 9% 0rem;
+        min-height: 70vh;
     }
     .portfolio {
         padding-top: 20px;
@@ -32,7 +32,7 @@
         margin: 70px 0px;
     }
     .home-sci{
-        margin-bottom: 100px;
+        margin-bottom: 450px;
         width: 300px;
     }
     .home-sci a{
@@ -41,7 +41,25 @@
         border-radius: 50%;
         font-size: 50px;
     }
-   
+    .home-imgHover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 70vh;
+        background: transparent;
+        transition: 3s;
+    }
+    .home {
+        background: url('../img/home.jpg') no-repeat fixed;
+        background-size: cover;
+        background-position: right;
+    }
+    .home-imgHover:hover {
+        background: var(--bg-color);
+        opacity: .8;
+        height: 70vh;
+    }
 }
 @media(max-width:991px){
 
@@ -78,7 +96,7 @@
         margin-top: 20px;
     }
     .home-sci{
-        margin-bottom: 80px;
+        margin-bottom: 280px;
         width: 300px;
     }
     .home-sci a{
@@ -92,6 +110,26 @@
     }
     .porfessional .box{
         margin-top: 50px;
+    }
+    .home-imgHover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 80vh;
+        background: transparent;
+        transition: 3s;
+    }
+    .home {
+        background: url('../img/home.jpg') no-repeat fixed;
+        background-size: cover;
+        background-position: right;
+        min-height: 80vh;
+    }
+    .home-imgHover:hover {
+        background: var(--bg-color);
+        opacity: .8;
+        height: 80vh;
     }
 }
 
@@ -179,11 +217,31 @@
         font-size: 30px;
     }
     .home-sci{
-        margin-bottom: 10px;
+        margin-bottom: 280px;
         width: 200px;
     }
     .skill-right{
         margin-bottom: 40px;
+    }
+    .home-imgHover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 80vh;
+        background: transparent;
+        transition: 3s;
+    }
+    .home {
+        background: url('../img/home.jpg') no-repeat fixed;
+        background-size: cover;
+        background-position: right;
+        min-height: 80vh;
+    }
+    .home-imgHover:hover {
+        background: var(--bg-color);
+        opacity: .8;
+        height: 80vh;
     }
    
 }
@@ -214,9 +272,6 @@
         width: 300px;
         margin-top: 40px;
     }
-}
-
-@media(max-width: 1200px),(max-width: 991px),(max-width: 768px),(max-width: 450px){
     .home-imgHover {
         position: absolute;
         top: 0;
@@ -230,11 +285,11 @@
         background: url('../img/home.jpg') no-repeat fixed;
         background-size: cover;
         background-position: right;
+        min-height: 100vh;
     }
     .home-imgHover:hover {
         background: var(--bg-color);
         opacity: .8;
         height: 100vh;
     }
-    
 }
