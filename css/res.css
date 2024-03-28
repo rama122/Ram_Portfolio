@@ -17,7 +17,7 @@
        margin-bottom: 30px;
    }
    .home-content p{
-       font-size: 60px;
+       font-size: 70px;
        width: 800px;
    }
    .home-content h1{
@@ -35,7 +35,7 @@
    }
    .home-sci{
        margin-bottom: 300px !important;
-       width: 500px !important;
+       width: 600px !important;
    }
    .home-sci a{
        width: 120px !important;
@@ -66,7 +66,7 @@
        position: relative;
        display: flex;
        justify-content: space-between;
-       width: 800px;
+       width: 900px;
        height: 6rem;
        margin-top: 150px;
    }
