@@ -83,9 +83,9 @@ animation: aboutSpinner 8s linear infinite;
     width: 80%;
     animation: bootstrap 4s;
 }
-.skill-bar .bar .Python{
-    width: 70%;
-    animation: python 4s;
+.skill-bar .bar .React{
+    width: 80%;
+    animation: React 4s;
 }
 @keyframes html{
     0%{
@@ -119,12 +119,12 @@ animation: aboutSpinner 8s linear infinite;
         width: 80%;
     }
 }
-@keyframes python{
+@keyframes React{
     0%{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 80%;
     }
 }
 @keyframes glow{
